@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TODO LIST APP</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Nasir Islam Sujan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="app-body">
+            <header>
+                <input id="txtActivity" type="text" placeholder="Enter an activity..">
+                <button id="btnAddActivity">+</button>
+            </header>
+
+            <div class="list">
+                <ul id="todo" class="todo">
+                    <li>Sunday i have class on 9 am!
+                        <div class="buttons">
+                            <button id="btnRemove" class="remove"><i class="fa fa-trash"></i></button>
+                            <button id="btnComplete" class="complete"><i class="fa fa-check"></i></button>
+                        </div>
+                    </li>
+                    
+                    <li>Monday i have class on 8 am!
+                        <div class="buttons">
+                            <button class="remove"><i class="fa fa-trash"></i></button>
+                            <button class="complete"><i class="fa fa-check"></i></button>
+                        </div>
+                    </li>                       
+                </ul>
+
+                <!--Completed task -->
+                <ul id="completed" class="todo">
+                    <li>This is a item of element
+                        <div class="buttons">
+                            <button id="btnComRemove" class="remove"><i class="fa fa-trash"></i></button>
+                            <button id="btnComComplete" class="complete"><i class="fa fa-check-circle"></i></button>
+                        </div>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
